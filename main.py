@@ -42,6 +42,12 @@ def logout():
     username = driver.find_element_by_id("exampleInputEmail")
     password = driver.find_element_by_id("exampleInputPassword")
 
+    # username.send_keys("")
+    # password.send_keys("")
+
+    username.send_keys("")
+    password.send_keys("")
+
     driver.find_element_by_name("submit").click()
     # Stop program for 2 secs so that page can load properly
     time.sleep(2)
