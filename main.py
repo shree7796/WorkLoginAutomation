@@ -13,13 +13,11 @@ def break_resume():
     username = driver.find_element_by_id("exampleInputEmail")
     password = driver.find_element_by_id("exampleInputPassword")
 
-    # Shree
-    # username.send_keys("shivamshrivastava@cdnsol.com")
-    # password.send_keys("cdn123")
+   
 
-    # Anl
-    username.send_keys("anilchourasiya@cdnsol.com")
-    password.send_keys("anil@1992")
+    # user/pass
+    username.send_keys("")
+    password.send_keys("")
 
     driver.find_element_by_name("submit").click()
     # Stop program for 2 secs so that page can load properly
